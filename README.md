@@ -1,4 +1,4 @@
-# MIPS-Single-cycle-16-bit-
+# MIPS 16-bit Single cycle processor
 ![Datapath](https://user-images.githubusercontent.com/46645257/89717885-490d6780-d9d8-11ea-9fd3-756eed49fc36.png)
 
 MIPS (Microprocessor without Interlocked Pipelined Stages) is a reduced instruction set computer (RISC) instruction set architecture (ISA). In this project I developed 16-bit Single Cycle MIPS processor. A single cycle processor is a processor that carries out one instruction in a single clock cycle.
