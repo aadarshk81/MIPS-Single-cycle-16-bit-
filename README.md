@@ -12,3 +12,8 @@ The Instruction format in MIPS architecture is as follows.
 ![Isa](https://user-images.githubusercontent.com/46645257/89718432-28dfa780-d9dc-11ea-8305-69c7240d7915.png)                             
 The instructions in a type with example is shown in following table-
 ![ex](https://user-images.githubusercontent.com/46645257/89728724-0b96f180-da4d-11ea-86c3-14e4c0738469.png)
+
+## Control Unit
+The control unit in MIPS processor or any other processor is an essential part. It is responsible for generating signals such as RegWrite(tell whether data need to be written in Reg), it also handles ccrucial signals of ALU which tell which operation to perform and many more signals.
+Following table summarises different signals and what value each of them hold for a instruction.
+![control signals](https://user-images.githubusercontent.com/46645257/89728830-c7f0b780-da4d-11ea-881f-fb1ecb3371f4.png)
