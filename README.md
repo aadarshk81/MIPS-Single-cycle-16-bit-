@@ -9,6 +9,6 @@ In MIPS architecture there are 3 types of Instructions. The type of Instruction 
 * **J-type-** These are jump instructions. Identified by '010' and '011' as opcode.
 
 The Instruction format in MIPS architecture is as follows.
-![Isa](https://user-images.githubusercontent.com/46645257/89718432-28dfa780-d9dc-11ea-8305-69c7240d7915.png)
+![Isa](https://user-images.githubusercontent.com/46645257/89718432-28dfa780-d9dc-11ea-8305-69c7240d7915.png)                             
 The instructions in a type with example is shown in following table-
 ![ex](https://user-images.githubusercontent.com/46645257/89728724-0b96f180-da4d-11ea-86c3-14e4c0738469.png)
