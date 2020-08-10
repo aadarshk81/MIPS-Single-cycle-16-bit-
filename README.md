@@ -21,3 +21,10 @@ The Input to the control unit is [15:13] bits of the 16 bit instruction.
 Following table summarises different signals and what value each of them hold for a instruction.
 
 ![control signals](https://user-images.githubusercontent.com/46645257/89728830-c7f0b780-da4d-11ea-881f-fb1ecb3371f4.png)
+
+## ALU Control
+This unit tells ALU what operation need to be done on the basis of signal ALUOp received from mail control unit. The following table describes the operation on basis of ALUOp.
+![Annotation 2020-08-10 214638](https://user-images.githubusercontent.com/46645257/89805276-091ebf80-db53-11ea-9e39-fddc0d9292b8.png)
+
+## Register File
+These are the registers from which data is read and onto which data is wrtten. There are 8 registers which can store 16-bit word. It has in total 7 inputs. Clock, Reset, two 3-bit addresses to know from which register data needs to be read, one 3-bit address to know in which register the data needs to be written, one control signal RegWrite which is enabled when data need to be written in register and one 16-bit data which need to be written. There are two 16-bit outpus which has the data read from two registers.
