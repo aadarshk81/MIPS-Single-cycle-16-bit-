@@ -14,6 +14,9 @@ The Instruction format in MIPS architecture is as follows.
 The instructions in a type with example is shown in following table-
 ![ex](https://user-images.githubusercontent.com/46645257/89728724-0b96f180-da4d-11ea-86c3-14e4c0738469.png)
 
+## Instruction Memory
+It is the Read Only Memory which stores all the instructions which need to be carried. It has a read_address as input from where the instruction is read and returned as output. The address comes from the Program Counter eery time increased by 2B(in case there is no branch and jump instruction).
+
 ## Control Unit
 The control unit in MIPS processor or any other processor is an essential part. It is responsible for generating signals such as RegWrite(tell whether data need to be written in Reg), it also handles crucial signals of ALU which tell which operation to perform and many more signals.
 The Input to the control unit is [15:13] bits of the 16 bit instruction.
