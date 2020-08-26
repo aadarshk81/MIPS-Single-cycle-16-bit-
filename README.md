@@ -35,4 +35,6 @@ These are the registers from which data is read and onto which data is wrtten. T
 ## Data Memory
 It is the main memory where the data is stored. Whenever there is need of some data this returns it to register file. There are two control signals MemRead and MemWrite. The Data Memory is accessed in case of LW and SW instructions. In case of LW MemRead is High and Incase of SW MemWrite is High as seen from Control signal table.
 
+
+
 MUX's are also used frequently in the datapath. They provide choice by getting control signal corresponding to the instuction and what path needs to be taken. For example a MUX is used before register file which has RrgDst as control signal which is high for R-type instruction. It creates a path for Instr[6:4] which specifies destination register in case of R-type instruction, and in case of other instruction Instr[9:7] is the destination register.
