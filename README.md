@@ -28,3 +28,6 @@ This unit tells ALU what operation need to be done on the basis of signal ALUOp 
 
 ## Register File
 These are the registers from which data is read and onto which data is wrtten. There are 8 registers which can store 16-bit word. It has in total 7 inputs. Clock, Reset, two 3-bit addresses to know from which register data needs to be read, one 3-bit address to know in which register the data needs to be written, one control signal RegWrite which is enabled when data need to be written in register and one 16-bit data which need to be written. There are two 16-bit outpus which has the data read from two registers.
+
+## Data Memory
+It is the main memory where the data is stored. Whenever there is need of some data this returns it to register file. There are two control signals MemRead and MemWrite. The Data Memory is accessed in case of LW and SW instructions. In case of LW MemRead is High and Incase of SW MemWrite is High as seen from Control signal table.
